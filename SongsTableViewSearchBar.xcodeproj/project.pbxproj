@@ -13,6 +13,7 @@
 		54DF90511FB02DBB00B228CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DF90501FB02DBB00B228CF /* Assets.xcassets */; };
 		54DF90541FB02DBB00B228CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DF90521FB02DBB00B228CF /* LaunchScreen.storyboard */; };
 		54DF905C1FB02F3E00B228CF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DF905B1FB02F3E00B228CF /* Song.swift */; };
+		81A7CBEA1FB1034D00A2F893 /* SongsWithImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A7CBE91FB1034D00A2F893 /* SongsWithImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54DF90531FB02DBB00B228CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54DF90551FB02DBB00B228CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DF905B1FB02F3E00B228CF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		81A7CBE91FB1034D00A2F893 /* SongsWithImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsWithImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				54DF90491FB02DBB00B228CF /* AppDelegate.swift */,
-				54DF904B1FB02DBB00B228CF /* ViewController.swift */,
+				81A7CBEB1FB1036900A2F893 /* New Group */,
 				54DF905B1FB02F3E00B228CF /* Song.swift */,
 				54DF904D1FB02DBB00B228CF /* Main.storyboard */,
 				54DF90501FB02DBB00B228CF /* Assets.xcassets */,
@@ -65,6 +67,15 @@
 				54DF90551FB02DBB00B228CF /* Info.plist */,
 			);
 			path = SongsTableViewSearchBar;
+			sourceTree = "<group>";
+		};
+		81A7CBEB1FB1036900A2F893 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				54DF904B1FB02DBB00B228CF /* ViewController.swift */,
+				81A7CBE91FB1034D00A2F893 /* SongsWithImageViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54DF905C1FB02F3E00B228CF /* Song.swift in Sources */,
+				81A7CBEA1FB1034D00A2F893 /* SongsWithImageViewController.swift in Sources */,
 				54DF904C1FB02DBB00B228CF /* ViewController.swift in Sources */,
 				54DF904A1FB02DBB00B228CF /* AppDelegate.swift in Sources */,
 			);
